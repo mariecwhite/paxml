@@ -10,14 +10,14 @@ jax @ git+https://github.com/google/jax
 lingvo
 numpy
 orbax-checkpoint @ git+https://github.com/google/orbax/#subdirectory=checkpoint
-praxis
-protobuf==3.19.6
+praxis @ git+https://github.com/mariecwhite/praxis@gemma
+protobuf
 pyglove
 seqio-nightly
 t5
-tensorflow~=2.9.2
-tensorflow-text~=2.9.0
+tensorflow
+tensorflow-text
 tensorstore
-tensorflow-datasets==4.8.3
-tfds-nightly==4.8.3.dev202303280045
-tensorflow-metadata==1.12.0
+tensorflow-datasets
+tfds-nightly
+tensorflow-metadata
